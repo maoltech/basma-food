@@ -1,0 +1,105 @@
+@charset "utf-8"; 
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.navbar-brand img {
+	url= "#home";
+}
+
+#page{ 
+	margin-top: -10px; 
+	font-family: "serif";
+	}
+	
+title {}
+
+html, body {
+	height:200%;
+	margin-top:30;
+	padding:0;
+}
+
+.navbar .nav {
+	margin-top: 0px;
+	margin-left: 180px;
+	position: fixed;
+}
+
+.navbar .nav > li ,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+
+	color:          blue;                        
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:      17px;
+	letter-spacing: 2px;
+
+}
+
+.navbar .nav > li > a, .navbar .nav > li > a:first-line {
+	color:          white;
+	text-shadow:    none;
+}
+
+.navbar .nav > li > a:hover, .navbar .nav > li > a:hover:first-line { 
+	color:          #CBC5F5;                      
+	text-shadow:    none;
+}
+	
+.carousel, .item, .active {
+	height:100%;
+	}
+	
+.carousel-inner {
+	height:100%;
+	}
+	
+.carousel {
+	margin-bottom:10px;
+	}
+	
+.carousel-caption {
+	margin: 15em;
+	position: relative;
+	}
+
+.carousel-caption > h1 {
+	font-size: 10em;
+	margin-left: -0.8em;
+	color: #EDCDC2;
+	text-shadow: 2px 2px 4px #CBC5F5;
+	font-family: 'Satisfy', cursive;;
+}
+
+.carousel-caption > p {
+	font-size: 20px;
+	margin-left: -7em;
+}
+
+.carousel .carousel-inner .bg {
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+	
+.carousel .carousel-inner .bg1 {
+	background-image:url('https://cdn.pixabay.com/photo/2018/04/04/09/23/food-3289264_1280.jpg');
+	background-position: center top;
+	}
+	
+.carousel-caption p {
+	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 gray;
+    text-align: center;
+}
+
+.footer {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+}

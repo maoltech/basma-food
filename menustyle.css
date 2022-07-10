@@ -1,0 +1,100 @@
+@charset "utf-8"; 
+
+.navbar-brand img {
+	url= "#home";
+}
+
+#page{ 
+	margin-top: -10px; 
+	font-family: "serif";
+	}
+	
+
+
+html, body {
+	height:200%;
+	margin-top:30;
+	padding:0;
+}
+
+.navbar .nav {
+	margin-top: 0px;
+	margin-left: 180px;
+	position: fixed;
+}
+
+.navbar .nav > li ,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+
+	color:          blue;                        
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:      17px;
+	letter-spacing: 2px;
+
+}
+
+.navbar .nav > li > a, .navbar .nav > li > a:first-line {
+	color:          white;
+	text-shadow:    none;
+}
+
+.navbar .nav > li > a:hover, .navbar .nav > li > a:hover:first-line { 
+	color:          #CBC5F5;                      
+	text-shadow:    none;
+}
+	
+.carousel, .item, .active {
+	height:100%;
+	}
+	
+.carousel-inner {
+	height:100%;
+	}
+	
+.carousel {
+	margin-bottom:10px;
+	}
+	
+.carousel-caption {
+	z-index: 10;
+	position: relative;
+	margin: 230px;
+	}
+
+.carousel-caption > h1 {
+	font-size: 120px;
+	margin-left: -0.6em;
+	color: #fff;
+	text-shadow: 2px 2px 4px #fff;
+	font-family: 'Satisfy', cursive;
+}
+
+.carousel-caption > p {
+	font-size: 20px;
+}
+
+.carousel .carousel-inner .bg {
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+	
+.carousel .carousel-inner .bg {
+	background-image:url('https://cdn.pixabay.com/photo/2016/11/29/09/00/abundance-1868573_1280.jpg');
+	background-position: center center;
+	}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.footer {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
