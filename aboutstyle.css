@@ -21,7 +21,7 @@ html, body {
 
 .navbar .nav {
 	margin-top: 0px;
-	margin-left: 180px;
+	margin-left: 280px;
 	position: fixed;
 }
 
@@ -90,6 +90,11 @@ html, body {
 	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 gray;
     text-align: center;
 }
+.logo{
+	margin-left: -100px;
+	max-width:500px;
+
+}
 @media screen and (max-width: 600px) {
     .column, input[type=submit] {
         width: 100%;
@@ -114,6 +119,14 @@ html, body {
 	.carousel-caption > p {
 		font-size: 15px;
 	
+	}
+	.logo{
+		margin-left: 0px !important;
+		max-width:200px;
+		
+	}
+	.navbar .nav {
+		margin-left: 180px;
 	}
 	
 

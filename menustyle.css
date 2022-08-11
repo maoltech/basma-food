@@ -19,7 +19,7 @@ html, body {
 
 .navbar .nav {
 	margin-top: 0px;
-	margin-left: 180px;
+	margin-left: 280px;
 	position: fixed;
 }
 
@@ -83,7 +83,11 @@ html, body {
 	background-image:url('https://cdn.pixabay.com/photo/2016/11/29/09/00/abundance-1868573_1280.jpg');
 	background-position: center center;
 	}
-
+.logo{
+		margin-left: -100px;
+		max-width:500px;
+	
+	}
 @media screen and (max-width: 600px) {
     .column, input[type=submit] {
         width: 100%;
@@ -99,6 +103,14 @@ html, body {
 	}
 	.carousel-caption > p {
 		display: inline !important;
+	}
+	.logo{
+		margin-left: 0px !important;
+		max-width:200px;
+		
+	}
+	.navbar .nav {
+		margin-left: 180px;
 	}
 
 }

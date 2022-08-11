@@ -17,7 +17,7 @@ html, body {
 
 .navbar .nav {
 	margin-top: 0px;
-	margin-left: 180px;
+	margin-left: 280px;
 	position: fixed;
 }
 
@@ -122,6 +122,11 @@ input[type=submit]:hover {
     display: table;
     clear: both;
 }
+.logo{
+	margin-left: -100px;
+	max-width:500px;
+
+}
 
 @media screen and (max-width: 600px) {
     .column, input[type=submit] {
@@ -134,6 +139,14 @@ input[type=submit]:hover {
 	}
 	.carousel-caption > h1 {
 		font-size: 60px; 
+	}
+	.logo{
+		margin-left: 0px !important;
+		max-width:200px;
+		
+	}
+	.navbar .nav {
+		margin-left: 180px;
 	}
 }
 
