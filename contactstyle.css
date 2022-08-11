@@ -128,6 +128,13 @@ input[type=submit]:hover {
         width: 100%;
         margin-top: 0;
     }
+	.carousel-inner :first-child{
+		width: auto 100% !important;
+		background: cover;
+	}
+	.carousel-caption > h1 {
+		font-size: 60px; 
+	}
 }
 
 .footer {

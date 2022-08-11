@@ -89,6 +89,18 @@ html, body {
         width: 100%;
         margin-top: 0;
     }
+	.carousel-inner :first-child{
+		width: auto 100% !important;
+		background: cover;
+	}
+	.bg1 :first-child{
+		font-size: 50px;
+		margin-left: 20% !important;
+	}
+	.carousel-caption > p {
+		display: inline !important;
+	}
+
 }
 
 .footer {

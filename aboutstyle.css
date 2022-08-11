@@ -1,11 +1,6 @@
 @charset "utf-8"; 
 
-@media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
-}
+
 
 .navbar-brand img {
 	url= "#home";
@@ -94,6 +89,34 @@ html, body {
 .carousel-caption p {
 	box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 gray;
     text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+	.carousel-inner :first-child{
+		width: auto 100% !important;
+		background: cover;
+	}
+	.carousel-caption {
+		top: 10% !important;
+		bottom: 20% !important;
+		left: 20% !important;
+		right: 0% !important;
+		margin: 6em !important;
+	}
+	.carousel-caption > h1 {
+		font-size: 50px;
+		margin-left: -0.9em !important;
+		margin-right: 0.9em !important;
+	}
+	.carousel-caption > p {
+		font-size: 15px;
+	
+	}
+	
+
 }
 
 .footer {
