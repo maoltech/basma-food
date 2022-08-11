@@ -126,6 +126,10 @@ html, body {
 	.navbar .nav {
 		margin-left: 180px;
 	}
+	.cal{
+		color:green;
+		
+	}
 }
 
 .footer {
@@ -134,4 +138,27 @@ html, body {
     background-color: transparent;
     color: lightgray;
     text-align: center;
+}
+.call{
+	font-size: 50px;
+	position: absolute;
+	z-index: 1000;
+	display: block;
+	float: right;
+	margin-top: 70vh;
+	margin-left: 75vw;
+	position: fixed;
+}
+.cal{
+	cursor: pointer;
+	color:gray;
+	text-decoration: none;	
+	margin: 1vw;
+	border-radius: 50%;
+}
+
+.cal:hover{
+	color:green;
+	box-shadow: 10px 20px 49px 3px rgba(71,64,64,0.75);
+
 }
